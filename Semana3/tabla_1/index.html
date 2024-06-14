@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Ejemplo 2</title>
+</head>
+<body>
+    <!-- tablas htnl -->
+         <!-- tablas -->
+              <!-- tr-->
+                   <!-- th -->
+                        <!-- td -->
+    <style>
+        table{
+            border-collapse:collapse;
+        }
+        td,th{
+            border: 1px solid;
+            padding: 10px;
+            text-align:center;
+        }
+
+        th{
+            background-color: #0bfa0b
+        }
+    </style>
+    <h2>tablas</h2>
+        <table>
+            <tr>
+                <th>CURSO</th>
+                <th>ALUMNO</th>
+                <th>NOTA 1</th>
+                <th>NOTA 2</th>
+                <th>NOTA 3</th>
+                <th>PROM</th>
+            </tr>
+            <tr>
+                <td rowspan="3">CALCULO 1</td>
+                <td>Pablo</td>
+                <td>10.5</td>
+                <td>12</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Gabriel</td>
+                <td>10.5</td>
+                <td>12</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Edgar</td>
+                <td>10.5</td>
+                <td>12</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </table>
+
+        <table>
+            <caption>CURSOS</caption>
+            <thead>
+                <tr>
+                    <th>CURSO</th>
+                    <th>ALUMNO</th>
+                    <th>NOTA 1</th>
+                    <th>NOTA 2</th>
+                    <th>NOTA 3</th>
+                    <th>PROM</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CALCULO 1</td>
+                    <td>Pablo</td>
+                    <td>10.5</td>
+                    <td>12</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>CALCULO 1</td>
+                    <td>Gabriel</td>
+                    <td>10.5</td>
+                    <td>12</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>CALCULO 1</td>
+                    <td>Edgarl</td>
+                    <td>10.5</td>
+                    <td>12</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>              
+            </tbody>
+           <tfoot>
+                <tr>
+                    <td colspan="6">
+                        Total de Registros: 3
+                    </td>
+                </tr>
+           </tfoot>
+        </table>
+</body>
+</html>
