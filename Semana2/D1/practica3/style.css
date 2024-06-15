@@ -1,33 +1,56 @@
 * {
     padding: 0;
     margin: 0;
+    height: 100vh;
+    width: 960px;
 }
+
+body{
+    border: solid red;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2{
+    border: solid yellowgreen;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+ 
+}
+
 
 .seccion_1{
-    width: 960px;
+    display: flex;
+    flex-direction: column;
+    border: solid green;
     height: 525px;
     background-image: url(./imagen/Mask\ Group.png);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-.p1{
-    padding-top: 55px;
-    padding-left: 40%;
+.h21{
+    border: solid blue;
+    color: white;
+    font-size: 64px;
+    height: 70px;
+    width: 250px;
+    text-align: center;
+    /* font-weight: 700; */
+}
+
+.div11{
+    border: solid yellow;
     font-family: Arial;
     font-size: 64px;
     font-weight: 700;
     width: 232px;
     height: 74px;
+    text-align: center;
+
 }
 
-.label1{
-    margin-top: 125px;
-    margin-left: 60px;
-    top: 450px;
-    width: 370px;
-    height: 90px;
-    text-align: center;
+.div12{
+
     background-color: rgba(7, 139, 247, 0.295);
     font-size: 40px;
     font-weight: 700;
@@ -47,10 +70,7 @@
 }
 
 .tit2{
-    padding-left: 40%;
-    font-family: Arial;
-    font-size: 30px;
-    font-weight: 700;
+
     color: blue;
 }
 
@@ -80,10 +100,9 @@
 }
 
 .label3{
-    font-size: 40px;
-    font-weight: 700;
+
     color: aqua;
-    text-align: center;
+
 }
 
 
